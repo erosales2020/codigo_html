@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <table border="1" style="width: 100%">
+      <!-- podemos poner borde a la tabla-->
+      <tr>
+        <!--"tr" de table row, son las filas de la tabla-->
+        <td width="200" colspan="2">Documento</td>
+        <!-- "td" columna -->
+        <!-- "coldpsn" combina columnas->
+        <!-- "width" ancho de la celda en %-->
+        <td>Apellido</td>
+        <td>descripción</td>
+      </tr>
+      <tr>
+        <td>x21</td>
+        <td>x22</td>
+        <td>x22</td>
+        <td>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+          deleniti qui velit aspernatur quae reiciendis facilis corrupti
+          expedita ad rerum necessitatibus perferendis, natus voluptatum magni
+          impedit amet excepturi optio iste.
+        </td>
+      </tr>
+    </table>
+    <br />
+    <!-- salto de linea-->
+    <br />
+    <table border="1" style="width: 100%">
+      <tr>
+        <td rowspan="3">Rowspan en tablas de HTML</td>
+        <!-- "rowspan" combina filas-->
+        <td>columna1</td>
+        <td>columna2</td>
+        <td>columna3</td>
+      </tr>
+      <tr>
+        <td>columna1</td>
+        <td>columna2</td>
+        <td>columna3</td>
+      </tr>
+      <tr>
+        <td>columna1</td>
+        <td>columna2</td>
+        <td>columna3</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Educacion</th>
+          <th>Edad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Edgar</td>
+          <td>Ingeniero</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td>Edgar</td>
+          <td>Ingeniero</td>
+          <td>40</td>
+        </tr>
+        <tr>
+            <td>Edgar</td>
+            <td>Ingeniero</td>
+            <td>40</td>
+          </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Adelantee  </td>
+          <td>Atras</td> 
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
